@@ -1,0 +1,103 @@
+
+.banner[b-jxqy1gb23m] {
+    background: url(img/home-bottom-shape.png) no-repeat bottom, linear-gradient(#301174, #0063B2, #17A8D5);
+    padding: 10rem 0;
+}
+
+.slogan-company[b-jxqy1gb23m] {
+    flex: 1;
+    min-width: 50%;
+}
+
+    .slogan-company h1[b-jxqy1gb23m] {
+        font-family: bannerTitleFont;
+        font-size: 3.5rem;
+    }
+
+
+.child-title[b-jxqy1gb23m] {
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+
+.banner img[b-jxqy1gb23m] {
+    flex: 1;
+    min-width: 300px;
+}
+
+.banner-btn[b-jxqy1gb23m] {
+    vertical-align: middle;
+    margin-top: 5rem;
+}
+
+.about-btn[b-jxqy1gb23m] {
+    background-color: white;
+    padding: 0.8rem 3.5rem;
+    color: var(--color-primary);
+    border-radius: 5px;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact-us-btn[b-jxqy1gb23m] {
+    color: white;
+    padding: 0.8rem 2.6rem;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.provied[b-jxqy1gb23m] {
+    background-color: var(--color-white);
+    margin-top: -2px;
+}
+
+    .provied .section-title[b-jxqy1gb23m] {
+        color: var(--color-secondary-btn);
+        font-family: bannerTitleFont;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .provied h1[b-jxqy1gb23m] {
+        font-family: bannerTitleFont;
+        font-size: 2.4rem;
+        font-weight: 900;
+        text-align: center;
+    }
+
+.it-solutions-item[b-jxqy1gb23m] {
+    margin-top: 30px;
+    border: 0.5px solid rgba(0, 0, 0, 0.04);
+    border-radius: 3px;
+}
+    .it-solutions-item a[b-jxqy1gb23m] {
+        font-family: bannerTitleFont;
+        font-size: 1rem !important;
+        margin-top: 60px;
+    }
+
+    .it-solutions-item:hover[b-jxqy1gb23m] {
+        transform: translateY(-10px);
+    }
+
+    .it-solutions-item:hover img[b-jxqy1gb23m] {
+        transform: scaleX(-1);
+    }
+
+.it-solutions-item__img[b-jxqy1gb23m] {
+    width: 4rem;
+    transition: transform 0.8s;
+}
+
+.it-solutions-item__title[b-jxqy1gb23m] {
+    font-family: bannerTitleFont;
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+.it-solutions-item__sub-title[b-jxqy1gb23m] {
+    font-size: 1rem;
+}

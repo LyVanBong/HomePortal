@@ -1,0 +1,103 @@
+﻿
+.banner {
+    background: url(img/home-bottom-shape.png) no-repeat bottom, linear-gradient(#301174, #0063B2, #17A8D5);
+    padding: 10rem 0;
+}
+
+.slogan-company {
+    flex: 1;
+    min-width: 50%;
+}
+
+    .slogan-company h1 {
+        font-family: bannerTitleFont;
+        font-size: 3.5rem;
+    }
+
+
+.child-title {
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+
+.banner img {
+    flex: 1;
+    min-width: 300px;
+}
+
+.banner-btn {
+    vertical-align: middle;
+    margin-top: 5rem;
+}
+
+.about-btn {
+    background-color: white;
+    padding: 0.8rem 3.5rem;
+    color: var(--color-primary);
+    border-radius: 5px;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact-us-btn {
+    color: white;
+    padding: 0.8rem 2.6rem;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.provied {
+    background-color: var(--color-white);
+    margin-top: -2px;
+}
+
+    .provied .section-title {
+        color: var(--color-secondary-btn);
+        font-family: bannerTitleFont;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .provied h1 {
+        font-family: bannerTitleFont;
+        font-size: 2.4rem;
+        font-weight: 900;
+        text-align: center;
+    }
+
+.it-solutions-item {
+    margin-top: 30px;
+    border: 0.5px solid rgba(0, 0, 0, 0.04);
+    border-radius: 3px;
+}
+    .it-solutions-item a {
+        font-family: bannerTitleFont;
+        font-size: 1rem !important;
+        margin-top: 60px;
+    }
+
+    .it-solutions-item:hover {
+        transform: translateY(-10px);
+    }
+
+    .it-solutions-item:hover img {
+        transform: scaleX(-1);
+    }
+
+.it-solutions-item__img {
+    width: 4rem;
+    transition: transform 0.8s;
+}
+
+.it-solutions-item__title {
+    font-family: bannerTitleFont;
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+.it-solutions-item__sub-title {
+    font-size: 1rem;
+}
