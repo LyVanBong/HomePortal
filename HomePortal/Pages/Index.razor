@@ -1,38 +1,236 @@
 ﻿@page "/"
 
+
 <HomePortal.Components.Navbar />
 
 @*Banner*@
 <div class="banner container-fluid w-100">
-    <div class="container d-flex flex-wrap flex-lg-wrap flex-xxl-nowrap gap-5">
-        <div class="slogan-company flex-grow-1 text-white text-center text-lg-start align-self-center p-3 p-lg-0 ">
+    <div class="container d-flex flex-wrap flex-xxl-nowrap gap-5">
+        <div class="slogan-company flex-grow-1 text-white text-center text-sm-start align-self-center p-3 p-sm-0 ">
          <h1 class="h1">IT Solutions & Bussiness Services Company</h1>
          <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
-             <div class="banner-btn d-flex justify-content-center justify-content-lg-center justify-content-xxl-start">
+             <div class="banner-btn d-flex justify-content-center justify-content-sm-center justify-content-xxl-start">
                  <p class="about-btn d-inline-block">About</p>
                  <p class="contact-us-btn d-inline-block">Contact us</p>
              </div>
          </div>
-         <img src="/img/home-font.png" class="flex-grow-1 p-3 p-lg-0" />
+         <img src="/img/home-font.png" class="flex-grow-1 flex-sm-grow-1 flex-xxl-grow-1 p-0 p-xxl-0" />
     </div>
      
 </div>
 
-@*Provide*@
-<div class="provied container-fluid w-100">
+@*Provide*@ 
+<div class="provied container-fluid w-100 pb-xxl-5">
     <section class="container">
          <p class="section-title">WHAT WE PROVIDE</p>
          <h1 class="fw-bold"> IT SOLUTIONS </h1>
-         <div class="row row-cols-1 row-cols-lg-2 row-cols-xxl-3">
-             <div class="it-solutions-item p-4 shadow">
+         <div class="row row-cols-1 row-cols-sm-2 row-cols-xxl-3">
+            <div class="it-solutions-block pb-2">
+                <div class="it-solutions-item p-4 shadow">
                  <img src="/img/ic_is_is.png" class="it-solutions-item__img"/>
                  <p class="it-solutions-item__title">IT Solutions</p>
                  <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
                  <a href="#">Read More</a>
+                </div>
+             </div>
+            <div class="it-solutions-block pb-4">
+                 <div class="it-solutions-item p-4 shadow">
+                 <img src="/img/ic_is_wd.png" class="it-solutions-item__img"/>
+                 <p class="it-solutions-item__title">Web Development</p>
+                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                 <a href="#">Read More</a>
+                </div>
+             </div>
+             <div class="it-solutions-block pb-4">
+                <div class="it-solutions-item p-4 shadow">
+                 <img src="/img/ic_is_ns.png" class="it-solutions-item__img"/>
+                 <p class="it-solutions-item__title">Network Services</p>
+                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                 <a href="#">Read More</a>
+                </div>
              </div>
 
-
+             <div class="it-solutions-block pb-4">
+                 <div class="it-solutions-item p-4 shadow">
+                 <img src="/img/ic_is_seo.png" class="it-solutions-item__img"/>
+                 <p class="it-solutions-item__title">SEO Optimization</p>
+                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                 <a href="#">Read More</a>
+                </div>
+             </div>
+             <div class="it-solutions-block pb-4">
+                <div class="it-solutions-item p-4 mb-4 shadow">
+                 <img src="/img/ic_is_ao.png" class="it-solutions-item__img"/>
+                 <p class="it-solutions-item__title">App Optimization</p>
+                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                 <a href="#">Read More</a>
+                </div>
+             </div>
+             <div class="it-solutions-block pb-4">
+                 <div class="it-solutions-item p-4 shadow">
+                 <img src="/img/ic_is_dr.png" class="it-solutions-item__img"/>
+                 <p class="it-solutions-item__title">Data Recovery</p>
+                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                 <a href="#">Read More</a>
+                </div>
+             </div>
          </div>
     </section>
-   
+
+    @*About Our Company*@
+    <section class="about-our-company">
+        <div class="container d-flex flex-wrap flex-xxl-nowrap gap-5">
+            <div class="aoc-skill flex-grow-1 text-start p-3 p-sm-0 ">
+                <p class="section-title text-start" style="color: var(--color-primary);">ABOUT OUR COMPANY</p>
+                <h1 class="fw-bold text-start"> Providing your business with a quality IT service is our passion. </h1>
+                <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+                
+                <div class="aoc-skill-persent mt-4" style="--aoc-skill-persent: 90%">
+                    <div class="d-flex justify-content-between">
+                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">IT Consulting</p>
+                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">90%</p>
+                    </div>
+                    <div class="aoc-skill-persent-bar w-100">
+                         <div style="width: var(--aoc-skill-persent); background-color: var(--color-primary); height: 6px;"></div>
+                    </div>
+                </div>
+
+                <div class="aoc-skill-persent mt-4" style="--aoc-skill-persent: 75%">
+                    <div class="d-flex justify-content-between">
+                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">Virsual Workstation</p>
+                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">75%</p>
+                    </div>
+                    <div class="aoc-skill-persent-bar w-100">
+                         <div style="width: var(--aoc-skill-persent); background-color: var(--color-primary); height: 6px;"></div>
+                    </div>
+                </div>
+
+                <div class="aoc-skill-persent mt-4" style="--aoc-skill-persent: 80%">
+                    <div class="d-flex justify-content-between">
+                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">Managed IT Service</p>
+                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">80%</p>
+                    </div>
+                    <div class="aoc-skill-persent-bar w-100">
+                         <div style="width: var(--aoc-skill-persent); background-color: var(--color-primary); height: 6px;"></div>
+                    </div>
+                </div>
+
+                 <p class="learn-more-btn d-inline-block text-white">Learn More</p>
+
+            </div>
+            <div class="aoc-experience">
+                <div class="aoc-experience__tag shadow-lg">
+                     <h1 class="fw-bold text-start"> 20 </h1>
+                     <p class="text-start">YEARS EXPERIENCE</p>
+                </div>
+                <img src="/img/about.jpg" />
+                
+            </div>
+        </div>
+    </section>
+
+    @*Why Choose Us*@
+    <section class="mt-2">
+         <div class="why-choose-us container d-flex flex-wrap flex-xxl-nowrap gap-0 gap-sm-5 gap-xxl-5">
+        
+             <img src="/img/choose-1.jpg" class="flex-grow-1 flex-sm-grow-1 flex-xxl-grow-1 p-0 p-xxl-0" />
+
+             <div class="slogan-company flex-grow-1 text-sm-start align-self-center p-3 p-sm-0 ">
+                <p class="section-title text-start" style="color: var(--color-secondary-btn);">WHY CHOOSE US</p>
+                <h1 class="fw-bold text-start"> Providing your business with a quality IT service is our passion. </h1>
+                <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+                <div class="d-flex justify-content-between flex-wrap">
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Remote It Assistance</p>
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Solving IT Problems</p>
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Practice IT Management</p>
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">IT Security Services</p>
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Managed IT Service</p>
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Cloud Services</p>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    @*Why Trust Us*@
+    <section class="mt-2">
+         <div class="why-choose-us container d-flex flex-wrap flex-xxl-nowrap gap-0 gap-sm-5 gap-xxl-5">
+             <div class="slogan-company flex-grow-1 text-sm-start align-self-center p-3 p-sm-0 ">
+                <p class="section-title text-start" style="color: var(--color-secondary-btn);">WHY TRUST US?</p>
+                <h1 class="fw-bold text-start"> Achieve digital transformation for your retail business services </h1>
+                <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+                <div class="d-flex justify-content-between flex-wrap">
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Protect your Business</p>
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Network Security</p>
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Data Security</p>
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Small Business Owners</p>
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Running your Business</p>
+                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Network Monitoring</p>
+                </div>
+            </div>
+
+            <img src="/img/choose-2.jpg" class="flex-grow-1 flex-sm-grow-1 flex-xxl-grow-1 p-0 p-xxl-0" />
+         </div>
+    </section>
+</div>
+
+@*Total*@
+<div class="index-total d-flex justify-content-center flex-wrap">
+    <div class="index-total-item text-white p-5 my-xxl-5 my-sm-2">
+        <h1>27+</h1>
+        <h3>Years Helping Business</h3>
+    </div>
+    <div class="index-total-item text-white p-5 my-xxl-5 my-sm-2">
+        <h1>500+</h1>
+        <h3>Employers</h3>
+    </div>
+    <div class="index-total-item text-white p-5 my-xxl-5 my-sm-2">
+        <h1>30M</h1>
+        <h3>Complete Projects</h3>
+    </div>
+    <div class="index-total-item text-white p-5 my-xxl-5 my-sm-2">
+        <h1>90 K+</h1>
+        <h3>5 Star Rating</h3>
+    </div>
+
+
+</div>
+
+@*Testimonial*@
+<div class="provied container-fluid w-100 pb-xxl-5">
+    <section class="container">
+         <p class="section-title">TESTIMONIAL</p>
+         <h1 class="fw-bold"> What Our Client Say </h1>
+           <div class="site-section bg-left-half mb-5">
+      <div class="container-fluid owl-2-style">
+        <div class="owl-carousel owl-2">
+          <div class="media-29101">
+            <a href="#"><img src="/img/blog-1.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Consectetur Adipisicing Elit</a></h3>
+          </div>
+          <div class="media-29101">
+            <a href="#"><img src="/img/blog-2.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Beatae Doloribu</a></h3>
+          </div>
+          <div class="media-29101">
+            <a href="#"><img src="/img/blog-3.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Accusantium Eius Soluta</a></h3>
+          </div>
+          <div class="media-29101">
+            <a href="#"><img src="/img/blog-1.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Consectetur Adipisicing Elit</a></h3>
+          </div>
+          <div class="media-29101">
+            <a href="#"><img src="/img/blog-2.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Beatae Doloribu</a></h3>
+          </div>
+          <div class="media-29101">
+            <a href="#"><img src="/img/blog-3.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Accusantium Eius Soluta</a></h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    </section>
 </div>

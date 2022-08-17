@@ -6,7 +6,7 @@
 
 .slogan-company {
     flex: 1;
-    min-width: 50%;
+    min-width: 360px;
 }
 
     .slogan-company h1 {
@@ -22,7 +22,8 @@
 
 .banner img {
     flex: 1;
-    min-width: 300px;
+    min-width: 360px;
+    margin: 0 auto;
 }
 
 .banner-btn {
@@ -34,7 +35,7 @@
     background-color: white;
     padding: 0.8rem 3.5rem;
     color: var(--color-primary);
-    border-radius: 5px;
+    border-radius: 3px;
     margin-right: 1rem;
     font-size: 1rem;
     font-weight: 500;
@@ -44,7 +45,7 @@
     color: white;
     padding: 0.8rem 2.6rem;
     background-color: var(--color-primary);
-    border-radius: 5px;
+    border-radius: 3px;
     font-size: 1rem;
     font-weight: 500;
 }
@@ -72,11 +73,11 @@
     margin-top: 30px;
     border: 0.5px solid rgba(0, 0, 0, 0.04);
     border-radius: 3px;
+    transition: transform 0.2s;
 }
     .it-solutions-item a {
         font-family: bannerTitleFont;
-        font-size: 1rem !important;
-        margin-top: 60px;
+        font-size: 1.2rem !important;
     }
 
     .it-solutions-item:hover {
@@ -100,4 +101,266 @@
 
 .it-solutions-item__sub-title {
     font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/*About Our Company*/
+
+.about-our-company {
+    padding: 10rem 0;
+}
+
+.aoc-skill {
+    flex: 1;
+    min-width: 360px;
+}
+
+    .aoc-skill h1 {
+        font-size: 2.5rem;
+    }
+
+    .aoc-skill p {
+        color: #626262;
+        font-size: 0.9rem;
+        line-height: 1.8rem;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+    }
+
+    .aoc-skill-persent {
+
+    }
+        .aoc-skill-persent p {
+            margin-bottom: 10px;
+        }
+
+    .aoc-skill-persent-bar {
+        background-color: #7b68ee30;
+        height: 6px;
+    }
+
+    .learn-more-btn {
+        color: white;
+        padding: 0.6rem 2.6rem;
+        background-color: var(--color-primary);
+        border-radius: 3px;
+        font-size: 1rem;
+        font-weight: 500 !important;
+        margin-top: 40px;
+    }
+
+.aoc-experience {
+    flex: 1;
+    min-width: 360px;
+    position: relative;
+}
+
+     .aoc-experience img {
+         width: calc(100% - 160px);
+         float: right;
+     }
+
+     .aoc-experience__tag {
+         position: absolute;
+         z-index: 100;
+         width: 240px;
+         height: 180px;
+         left: 40px;
+         bottom: 40px;
+         background-color: var(--color-white);
+         border-bottom: 4px solid var(--color-secondary-btn);
+     }
+        .aoc-experience__tag h1 {
+            font-size: 5rem;
+            margin: 20px 0 0 30px;
+        }
+
+        .aoc-experience__tag p {
+            margin: auto 30px;
+            color: var(--color-secondary-btn);
+            font-weight: 700 !important;
+            font-size: 1.1rem !important;
+            font-family: bannerTitleFont;
+        }
+
+/*Why Choose Us*/
+
+.why-choose-us img {
+    flex: 1;
+    min-width: 360px;
+    margin: 0 auto;
+}
+
+    .why-choose-us__item {
+        display: inline-flex;
+        border-left: 2px solid var(--color-primary);
+        border-radius: 3px;
+        font-weight: 500;
+        font-size: 1.1rem;
+        width: 45% !important;
+    }
+
+
+
+/*Index Total*/
+
+.index-total {
+    background-color: rgba(0,0,0,0.4);
+}
+
+    .index-total-item {
+        text-align: center;
+        flex: 1;
+        min-width: 350px;
+    }
+
+        .index-total-item h1 {
+            font-size: 4rem;
+            font-family: bannerTitleFont;
+        }
+
+        .index-total-item h3 {
+            font-size: 1.5rem;
+            font-family: bannerTitleFont;
+        }
+
+
+
+
+
+.media-29101 img {
+    margin-bottom: 20px;
+}
+
+.media-29101 h3 {
+    font-size: 18px;
+    font-weight: 900 !important;
+}
+
+    .media-29101 h3 a {
+        color: #6c757d;
+    }
+
+.owl-2-style .owl-nav {
+    display: none;
+}
+
+.owl-2-style .owl-dots {
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+}
+
+    .owl-2-style .owl-dots .owl-dot {
+        display: inline-block;
+    }
+
+        .owl-2-style .owl-dots .owl-dot span {
+            display: inline-block;
+            width: 15px;
+            height: 3px;
+            border-radius: 0px;
+            background: #cccccc;
+            -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+            -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+            transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+            margin: 3px;
+        }
+
+        .owl-2-style .owl-dots .owl-dot.active span {
+            background: #007bff;
+        }
+
+        .owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
+            outline: none;
+        }
+
+    
+/**
+ * Basic CSS Media Query Template
+ * TODO: I should probably use Sass...
+ * Author: Michael Vieth
+ * ------------------------------------------
+ *  Responsive Grid Media Queries - 1280, 1024, 768, 480
+ *   1280-1024   - desktop (default grid)
+ *   1024-768    - tablet landscape
+ *   768-480     - tablet 
+ *   480-less    - phone landscape & smaller
+ * --------------------------------------------
+ */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+}
+
+@media all and (max-width: 480px) {
+    .banner img {
+        flex: 1;
+        min-width: calc(100vw - 20px);
+        height: calc(100vw - 20px);
+    }
+
+    .aoc-experience img {
+        min-width: calc(100vw - 20px);
+    }
+
+    .why-choose-us img {
+        flex: 1;
+        min-width: calc(100vw - 20px);
+        height: calc(100vw - 20px);
+    }
+
+    .why-choose-us__item {
+        flex-basis: 100%;
+    }
+
+
+}
+/* Portrait */
+@media screen and (orientation:portrait) { /* Portrait styles here */
+}
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */
+}
+
+
+/* CSS for iPhone, iPad, and Retina Displays */
+
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+    .banner img {
+        flex: 1;
+        min-width: calc(100vw - 20px);
+        height: calc(100vw - 20px);
+    }
+
+    .aoc-experience img {
+        min-width: calc(100vw - 20px);
+        height: calc(100vw - 20px);
+    }
+}
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
 }

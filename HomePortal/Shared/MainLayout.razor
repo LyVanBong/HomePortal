@@ -1,4 +1,16 @@
 ﻿@inherits LayoutComponentBase
+@inject IJSRuntime JSRuntime
+
+@functions {
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(firstRender)
+        {
+            await JSRuntime.InvokeAsync<object>("initializeCarousel");
+            firstRender = false;
+        }
+    }
+}
 
 <div class="page">
     <main>
