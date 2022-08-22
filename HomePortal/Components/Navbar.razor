@@ -1,20 +1,65 @@
-﻿<div class="navbar-area position-fixed">
-    @*Mobile Navbar*@
-    @*<div class="md-navbar">
-        <div class="container">
-            <div class="md-menu bg-transparent position-absolute w-100 float-end z-index-3">
-               
-            </div>
-            <a href="/" class="text-decoration-none">BByteSolution</a>
+﻿<nav class="navbar navbar-expand-lg pt-4 pb-4" id="navbar-area">
+  <div class="container">
+    <a class="navbar-brand" href="#">BByteSolution</a>
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list btn-menu" style="font-size: 2rem !important;"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-lg-0 d-flex justify-content-center w-100" id="nav-menu">
+       
+        
+        <li class="nav-item dropdown">
+          <span class="nav-link" aria-current="page"><a href="#">Home<i class="fa-solid fa-chevron-down ms-2"></i></a><i class="fa-solid fa-plus p-m-menu" onclick="showDropdownMenu(this)"></i></span>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home 1</a></li>
+            <li><a class="dropdown-item" href="#">Home 2</a></li>
+          </ul>
+        </li>
 
-        </div>
-    </div>*@
-    @*Desktop Navbar*@
-    @*<div class="navbar-content p-1">
-        <div class="container bg-dark">
-            <nav class="navbar navbar-expand-md navbar-light">
-                <a href="/" class="text-decoration-none">BByteSolution</a>
-            </nav>
-        </div>
-    </div>*@
-</div>
+         <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About Us</a>
+         </li>
+
+         <li class="nav-item dropdown">
+          <span class="nav-link" aria-current="page"><a href="#">Services<i class="fa-solid fa-chevron-down ms-2"></i></a><i class="fa-solid fa-plus p-m-menu" onclick="showDropdownMenu(this)"></i></span>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home 1</a></li>
+            <li><a class="dropdown-item" href="#">Home 2</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <span class="nav-link" aria-current="page"><a href="#">Projects<i class="fa-solid fa-chevron-down ms-2"></i></a><i class="fa-solid fa-plus p-m-menu" onclick="showDropdownMenu(this)"></i></span>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home 1</a></li>
+            <li><a class="dropdown-item" href="#">Home 2</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <span class="nav-link" aria-current="page"><a href="#">Pages<i class="fa-solid fa-chevron-down ms-2"></i></a><i class="fa-solid fa-plus p-m-menu" onclick="showDropdownMenu(this)"></i></span>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home 1</a></li>
+            <li><a class="dropdown-item" href="#">Home 2</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <span class="nav-link" aria-current="page"><a href="#">Blog<i class="fa-solid fa-chevron-down ms-2"></i></a><i class="fa-solid fa-plus p-m-menu" onclick="showDropdownMenu(this)"></i></span>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home 1</a></li>
+            <li><a class="dropdown-item" href="#">Home 2</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+         </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <button class="btn btn-outline-success" type="submit">Get It Support</button>
+      </form>
+    </div>
+  </div>
+</nav>

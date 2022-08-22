@@ -1,0 +1,335 @@
+#navbar-area[b-uovi7er347] {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+    padding: 20px 0;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.dropdown i[b-uovi7er347] {
+    font-size: 0.6rem;
+}
+.dropdown-menu[b-uovi7er347] {
+    min-width: 220px;
+    outline: none;
+    border: none !important;
+    border-radius: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.dropdown-item[b-uovi7er347] {
+    padding: 12px 20px 12px 20px;
+    border-bottom: 1px solid #62626235;
+}
+
+
+
+.dropdown:hover .dropdown-menu[b-uovi7er347] {
+    display: block;
+    margin-top: 0;
+    z-index: 1900;
+}
+
+.nav-item[b-uovi7er347] {
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: bannerTitleFont;
+    color: white !important;
+    margin-right: 5px;
+}
+
+.nav-link[b-uovi7er347] {
+    color: white;
+    display: flex;
+    flex: 1;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.nav-link a[b-uovi7er347] {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navbar button[b-uovi7er347] {
+    color: white;
+}
+
+.navbar form button[b-uovi7er347] {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    padding: 0.6rem 0;
+    width: 120px;
+}
+
+.navbar-brand[b-uovi7er347] {
+    font-family: bannerTitleFont;
+    color: white;
+    font-size: 2rem;
+}
+ 
+.p-m-menu[b-uovi7er347] {
+    display: none;
+}
+
+
+.navbar-toggler[b-uovi7er347] {
+    margin: 0 !important;
+}
+
+.nav-on-scroll[b-uovi7er347] {
+    background-color: white;
+}
+
+.nav-on-scroll .nav-link[b-uovi7er347] {
+    color: #000;
+}
+    .nav-on-scroll .nav-link a[b-uovi7er347]{
+        color: #000;
+    } 
+
+    .nav-on-scroll .btn-menu[b-uovi7er347] {
+        color: #000;
+    }
+
+.nav-on-scroll .navbar-brand[b-uovi7er347] {
+    color: #000;
+}
+
+/**
+ * Basic CSS Media Query Template
+ * TODO: I should probably use Sass...
+ * Author: Michael Vieth
+ * ------------------------------------------
+ *  Responsive Grid Media Queries - 1280, 1024, 768, 480
+ *   1280-1024   - desktop (default grid)
+ *   1024-768    - tablet landscape
+ *   768-480     - tablet 
+ *   480-less    - phone landscape & smaller
+ * --------------------------------------------
+ */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .dropdown:hover .dropdown-menu[b-uovi7er347] {
+        display: block;
+        margin-top: 0;
+        z-index: 1900;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+}
+
+@media all and (max-width: 480px) {
+    .banner img[b-uovi7er347] {
+        flex: 1;
+        min-width: calc(100vw - 20px);
+        height: calc(100vw - 20px);
+    }
+
+    .collapse[b-uovi7er347] {
+        border-radius: 5px;
+        background-color:#fff;
+    }
+
+    .aoc-experience img[b-uovi7er347] {
+        min-width: calc(100vw - 20px);
+    }
+
+    .nav-link[b-uovi7er347] {
+        justify-content: space-between;
+        padding-left: 20px;
+        border-bottom: 1px solid #62626235;
+        color: #000;
+    }
+
+    .nav-link a[b-uovi7er347] {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .aoc-skill[b-uovi7er347] {
+        padding: 0 !important;
+    }
+
+    .why-choose-us[b-uovi7er347] {
+        padding: 0 !important;
+    }
+
+        .why-choose-us img[b-uovi7er347] {
+            flex: 1;
+            min-width: calc(100vw - 20px);
+            height: calc(100vw - 20px);
+        }
+
+    .why-choose-us__item[b-uovi7er347] {
+        flex-basis: 100%;
+    }
+
+    .card[b-uovi7er347] {
+        min-width: 280px !important;
+    }
+
+    .dropdown:hover .dropdown-menu[b-uovi7er347] {
+        display: none;
+    }
+
+    .p-m-menu[b-uovi7er347] {
+        display: block;
+    }
+
+    .navbar button[b-uovi7er347] {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .nav-item:last-child a[b-uovi7er347] {
+        border-bottom: 0;
+    }
+
+    .dropdown-menu[b-uovi7er347] {
+        margin-left: 0;
+    }
+
+    .fa-chevron-down[b-uovi7er347] {
+        display: none;
+    }
+
+    .fa-plus[b-uovi7er347] {
+        display: block;
+        margin-right: 15px;
+        font-size: 1rem !important;
+    }
+
+    .fa-minus[b-uovi7er347] {
+        margin-right: 15px;
+        font-size: 1rem !important;
+    }
+
+    .dropdown:hover .dropdown-menu[b-uovi7er347] {
+        display: none;
+    }
+
+    #navbar-area[b-uovi7er347] {
+        padding: 10px 0;
+    }
+
+
+    .nav-item:last-child a[b-uovi7er347] {
+        border-bottom: 0;
+    }
+
+    .dropdown-menu[b-uovi7er347] {
+        margin-left: 0;
+    }
+}
+/* Portrait */
+@media screen and (orientation:portrait) { /* Portrait styles here */
+}
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */
+}
+
+
+/* CSS for iPhone, iPad, and Retina Displays */
+
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+    
+}
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+    .collapse[b-uovi7er347] {
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .navbar button[b-uovi7er347] {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .nav-link[b-uovi7er347] {
+        justify-content: space-between;
+        padding-left: 20px;
+        border-bottom: 1px solid #62626235;
+        color: #000;
+    }
+
+        .nav-link a[b-uovi7er347] {
+            color: #000;
+            text-decoration: none;
+        }
+
+    .nav-on-scroll .navbar-brand[b-uovi7er347] {
+        color: #000;
+    }
+
+    .nav-on-scroll .collapse[b-uovi7er347] {
+        color: #fff;
+    }
+
+    #navbar-area[b-uovi7er347] {
+        padding: 10px 0;
+    }
+
+
+    .nav-item:last-child a[b-uovi7er347] {
+        border-bottom: 0;
+    }
+
+    .dropdown-menu[b-uovi7er347] {
+       margin-left: 0; 
+    }
+
+    .fa-chevron-down[b-uovi7er347] {
+        display: none;
+    }
+
+    .fa-plus[b-uovi7er347] {
+        display: block;
+        margin-right: 15px;
+        font-size: 1rem !important;
+    }
+
+    .fa-minus[b-uovi7er347] {
+        margin-right: 15px;
+        font-size: 1rem !important;
+    }
+
+
+    .p-m-menu[b-uovi7er347] {
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-menu[b-uovi7er347] {
+        display: none;
+    }
+    
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+}

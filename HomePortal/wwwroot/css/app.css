@@ -4,7 +4,7 @@
 @font-face {
     font-family: bannerTitleFont;
     src: url(/fonts/Static-Bold.ttf);
-} 
+}
 
 :root {
     --color-primary: #7b68ee;
@@ -16,15 +16,14 @@
     --color-secondary-btn: #FF7242;
     --color-text-title: #FFC46B;
     --color-background: #FFFFFF;
-
+    --color-button-hover: #005DAE;
+    --color-footer-bg: #1C1C23;
     --card-border-radius: 2rem;
     --border-radius-1: 0.4rem;
     --border-radius-2: 0.8rem;
     --border-radius-3: 1.2rem;
-
     --card-padding: 1.8rem;
     --box-shadow: 0 0 10px rbga(0,0,0,0.1);
-
 }
 
 * {
@@ -37,25 +36,31 @@
     list-style: none;
     box-sizing: border-box;
     user-select: none;
-    overflow-x: hidden;
 }
 
 
 html {
     
     font-size: 16px;
+    overflow-x: hidden;
+   
 }
 
 body {
     width: 100%;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    background-image: url(/img/banner-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-size: 0.88rem;
-    background: url(/img/banner-bg.jpg) no-repeat;
     background-size: 100% 100%;
 }
 
+
 .container {
+    margin-top: -2px;
     padding: 0 6rem !important;
 }
 
@@ -71,6 +76,11 @@ a, .btn-link {
     display: block;
     width: 100%;
 }
+
+.wow:first-child {
+    visibility: hidden;
+}
+
 
 h1 {
     font-size: 1.8rem;
@@ -177,7 +187,7 @@ section {
 
 @media all and (max-width: 480px) {
    .container {
-       padding: 0.75rem !important;
+       padding: 0 0.75rem !important;
    }
 }
 
@@ -220,6 +230,9 @@ section {
 
 /* iPad Portrait */
 @media screen and (min-device-width: 481px) and (orientation:portrait) {
+    .container {
+        padding: 0 1rem !important;
+    }
 }
 
 /* iPad Landscape */

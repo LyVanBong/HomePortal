@@ -1,516 +1,542 @@
 ﻿@page "/"
 
 
-<HomePortal.Components.Navbar />
 
-@*Banner*@
-<div class="banner container-fluid w-100">
-    <div class="container d-flex flex-wrap flex-xxl-nowrap gap-5">
-        <div class="slogan-company flex-grow-1 text-white text-center text-sm-start align-self-center p-3 p-sm-0 ">
-         <h1 class="h1">IT Solutions & Bussiness Services Company</h1>
-         <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
-             <div class="banner-btn d-flex justify-content-center justify-content-sm-center justify-content-xxl-start">
-                 <p class="about-btn d-inline-block">About</p>
-                 <p class="contact-us-btn d-inline-block">Contact us</p>
-             </div>
-         </div>
-         <img src="/img/home-font.png" class="flex-grow-1 flex-sm-grow-1 flex-xxl-grow-1 p-0 p-xxl-0" />
-    </div>
-     
-</div>
+    <HomePortal.Components.Navbar/>
 
-@*Provide*@ 
-<div class="provied container-fluid w-100 pb-xxl-5">
-    <section class="container">
-         <p class="section-title">WHAT WE PROVIDE</p>
-         <h1 class="section-subtitle fw-bold"> IT SOLUTIONS </h1>
-         <div class="row row-cols-1 row-cols-sm-2 row-cols-xxl-3">
-            <div class="it-solutions-block pb-2">
-                <div class="it-solutions-item p-4 shadow">
-                 <img src="/img/ic_is_is.png" class="it-solutions-item__img"/>
-                 <p class="it-solutions-item__title">IT Solutions</p>
-                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-                 <a href="#">Read More</a>
-                </div>
-             </div>
-            <div class="it-solutions-block pb-4">
-                 <div class="it-solutions-item p-4 shadow">
-                 <img src="/img/ic_is_wd.png" class="it-solutions-item__img"/>
-                 <p class="it-solutions-item__title">Web Development</p>
-                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-                 <a href="#">Read More</a>
-                </div>
-             </div>
-             <div class="it-solutions-block pb-4">
-                <div class="it-solutions-item p-4 shadow">
-                 <img src="/img/ic_is_ns.png" class="it-solutions-item__img"/>
-                 <p class="it-solutions-item__title">Network Services</p>
-                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-                 <a href="#">Read More</a>
-                </div>
-             </div>
-
-             <div class="it-solutions-block pb-4">
-                 <div class="it-solutions-item p-4 shadow">
-                 <img src="/img/ic_is_seo.png" class="it-solutions-item__img"/>
-                 <p class="it-solutions-item__title">SEO Optimization</p>
-                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-                 <a href="#">Read More</a>
-                </div>
-             </div>
-             <div class="it-solutions-block pb-4">
-                <div class="it-solutions-item p-4 mb-4 shadow">
-                 <img src="/img/ic_is_ao.png" class="it-solutions-item__img"/>
-                 <p class="it-solutions-item__title">App Optimization</p>
-                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-                 <a href="#">Read More</a>
-                </div>
-             </div>
-             <div class="it-solutions-block pb-4">
-                 <div class="it-solutions-item p-4 shadow">
-                 <img src="/img/ic_is_dr.png" class="it-solutions-item__img"/>
-                 <p class="it-solutions-item__title">Data Recovery</p>
-                 <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-                 <a href="#">Read More</a>
-                </div>
-             </div>
-         </div>
-    </section>
-
-    @*About Our Company*@
-    <section class="about-our-company">
+    @*Banner*@
+    <div class="banner container-fluid w-100 bg-white" 
+         style=" background: url(/img/home-bottom-shape.png) no-repeat bottom, linear-gradient(#301174, #0063B2, #17A8D5);  padding: 10rem 0;">
         <div class="container d-flex flex-wrap flex-xxl-nowrap gap-5">
-            <div class="aoc-skill flex-grow-1 text-start p-3 p-sm-0 ">
-                <p class="section-title text-start" style="color: var(--color-primary);">ABOUT OUR COMPANY</p>
-                <h1 class="section-subtitle fw-bold text-start"> Providing your business with a quality IT service is our passion. </h1>
-                <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
-                
-                <div class="aoc-skill-persent mt-4" style="--aoc-skill-persent: 90%">
-                    <div class="d-flex justify-content-between">
-                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">IT Consulting</p>
-                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">90%</p>
-                    </div>
-                    <div class="aoc-skill-persent-bar w-100">
-                         <div style="width: var(--aoc-skill-persent); background-color: var(--color-primary); height: 6px;"></div>
-                    </div>
-                </div>
-
-                <div class="aoc-skill-persent mt-4" style="--aoc-skill-persent: 75%">
-                    <div class="d-flex justify-content-between">
-                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">Virsual Workstation</p>
-                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">75%</p>
-                    </div>
-                    <div class="aoc-skill-persent-bar w-100">
-                         <div style="width: var(--aoc-skill-persent); background-color: var(--color-primary); height: 6px;"></div>
-                    </div>
-                </div>
-
-                <div class="aoc-skill-persent mt-4" style="--aoc-skill-persent: 80%">
-                    <div class="d-flex justify-content-between">
-                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">Managed IT Service</p>
-                        <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">80%</p>
-                    </div>
-                    <div class="aoc-skill-persent-bar w-100">
-                         <div style="width: var(--aoc-skill-persent); background-color: var(--color-primary); height: 6px;"></div>
-                    </div>
-                </div>
-
-                 <p class="learn-more-btn d-inline-block text-white">Learn More</p>
-
-            </div>
-            <div class="aoc-experience">
-                <div class="aoc-experience__tag shadow-lg">
-                     <h1 class="fw-bold text-start"> 20 </h1>
-                     <p class="text-start">YEARS EXPERIENCE</p>
-                </div>
-                <img src="/img/about.jpg" />
-                
-            </div>
+            <div class="slogan-company flex-grow-1 text-white text-center text-sm-start align-self-center p-3 p-sm-0 ">
+             <h1 class="h1">IT Solutions & Bussiness Services Company</h1>
+             <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+                 <div class="banner-btn d-flex justify-content-center justify-content-sm-center justify-content-xxl-start">
+                     <a class="about-btn d-inline-block default-btn">About<span></span></a>
+                     <a class="contact-us-btn d-inline-block default-btn">Contact us<span></span></a>
+                 </div>
+             </div>
+             <img src="/img/home-font.png" class="flex-grow-1 flex-sm-grow-1 flex-xxl-grow-1 p-0 p-xxl-0" />
         </div>
-    </section>
+     
+    </div>
 
-    @*Why Choose Us*@
-    <section class="mt-2">
-         <div class="why-choose-us container d-flex flex-wrap flex-xxl-nowrap gap-0 gap-sm-5 gap-xxl-5">
+    @*Provide*@ 
+    <div class="provied container-fluid w-100 pb-xxl-5">
+        <section class="container">
+             <p class="section-title">WHAT WE PROVIDE</p>
+             <h1 class="section-subtitle fw-bold"> IT SOLUTIONS </h1>
+             <div class="row row-cols-1 row-cols-sm-2 row-cols-xxl-3">
+                <div class="it-solutions-block pb-2">
+                    <div class="it-solutions-item p-4 shadow">
+                     <img src="/img/ic_is_is.png" class="it-solutions-item__img"/>
+                     <p class="it-solutions-item__title">IT Solutions</p>
+                     <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                     <a href="#">Read More</a>
+                    </div>
+                 </div>
+                <div class="it-solutions-block pb-4">
+                     <div class="it-solutions-item p-4 shadow">
+                     <img src="/img/ic_is_wd.png" class="it-solutions-item__img"/>
+                     <p class="it-solutions-item__title">Web Development</p>
+                     <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                     <a href="#">Read More</a>
+                    </div>
+                 </div>
+                 <div class="it-solutions-block pb-4">
+                    <div class="it-solutions-item p-4 shadow">
+                     <img src="/img/ic_is_ns.png" class="it-solutions-item__img"/>
+                     <p class="it-solutions-item__title">Network Services</p>
+                     <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                     <a href="#">Read More</a>
+                    </div>
+                 </div>
+
+                 <div class="it-solutions-block pb-4">
+                     <div class="it-solutions-item p-4 shadow">
+                     <img src="/img/ic_is_seo.png" class="it-solutions-item__img"/>
+                     <p class="it-solutions-item__title">SEO Optimization</p>
+                     <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                     <a href="#">Read More</a>
+                    </div>
+                 </div>
+                 <div class="it-solutions-block pb-4">
+                    <div class="it-solutions-item p-4 mb-4 shadow">
+                     <img src="/img/ic_is_ao.png" class="it-solutions-item__img"/>
+                     <p class="it-solutions-item__title">App Optimization</p>
+                     <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                     <a href="#">Read More</a>
+                    </div>
+                 </div>
+                 <div class="it-solutions-block pb-4">
+                     <div class="it-solutions-item p-4 shadow">
+                     <img src="/img/ic_is_dr.png" class="it-solutions-item__img"/>
+                     <p class="it-solutions-item__title">Data Recovery</p>
+                     <p class="it-solutions-item__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+                     <a href="#">Read More</a>
+                    </div>
+                 </div>
+             </div>
+        </section>
+
+        @*About Our Company*@
+        <section class="about-our-company">
+            <div class="container d-flex flex-wrap flex-xxl-nowrap gap-5">
+                <div class="aoc-skill flex-grow-1 text-start p-3 p-sm-0 ">
+                    <p class="section-title text-start" style="color: var(--color-primary);">ABOUT OUR COMPANY</p>
+                    <h1 class="section-subtitle fw-bold text-start"> Providing your business with a quality IT service is our passion. </h1>
+                    <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+                
+                    <div class="aoc-skill-persent mt-4" style="--aoc-skill-persent: 90%">
+                        <div class="d-flex justify-content-between">
+                            <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">IT Consulting</p>
+                            <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">90%</p>
+                        </div>
+                        <div class="aoc-skill-persent-bar w-100">
+                             <div style="width: var(--aoc-skill-persent); background-color: var(--color-primary); height: 6px;"></div>
+                        </div>
+                    </div>
+
+                    <div class="aoc-skill-persent mt-4" style="--aoc-skill-persent: 75%">
+                        <div class="d-flex justify-content-between">
+                            <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">Virsual Workstation</p>
+                            <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">75%</p>
+                        </div>
+                        <div class="aoc-skill-persent-bar w-100">
+                             <div style="width: var(--aoc-skill-persent); background-color: var(--color-primary); height: 6px;"></div>
+                        </div>
+                    </div>
+
+                    <div class="aoc-skill-persent mt-4" style="--aoc-skill-persent: 80%">
+                        <div class="d-flex justify-content-between">
+                            <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">Managed IT Service</p>
+                            <p class="section-title text-start d-inline-block" style="color: var(--color-primary);">80%</p>
+                        </div>
+                        <div class="aoc-skill-persent-bar w-100">
+                             <div style="width: var(--aoc-skill-persent); background-color: var(--color-primary); height: 6px;"></div>
+                        </div>
+                    </div>
+
+                     <p class="learn-more-btn d-inline-block text-white">Learn More</p>
+
+                </div>
+                <div class="aoc-experience">
+                    <div class="aoc-experience__tag shadow-lg">
+                         <h1 class="fw-bold text-start"> 20 </h1>
+                         <p class="text-start">YEARS EXPERIENCE</p>
+                    </div>
+                    <img src="/img/about.jpg" />
+                
+                </div>
+            </div>
+        </section>
+
+        @*Why Choose Us*@
+        <section class="mt-2">
+             <div class="why-choose-us container d-flex flex-wrap flex-xxl-nowrap gap-0 gap-sm-5 gap-xxl-5">
         
-             <img src="/img/choose-1.jpg" class="flex-grow-1 flex-sm-grow-1 flex-xxl-grow-1 p-0 p-xxl-0" />
+                 <img src="/img/choose-1.jpg" class="flex-grow-1 flex-sm-grow-1 flex-xxl-grow-1 p-0 p-xxl-0" />
 
-             <div class="slogan-company flex-grow-1 text-sm-start align-self-center p-3 p-sm-0 ">
-                <p class="section-title text-start" style="color: var(--color-secondary-btn);">WHY CHOOSE US</p>
-                <h1 class="fw-bold text-start"> Providing your business with a quality IT service is our passion. </h1>
-                <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
-                <div class="d-flex justify-content-between flex-wrap">
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Remote It Assistance</p>
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Solving IT Problems</p>
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Practice IT Management</p>
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">IT Security Services</p>
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Managed IT Service</p>
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Cloud Services</p>
+                 <div class="slogan-company flex-grow-1 text-sm-start align-self-center p-3 p-sm-0 ">
+                    <p class="section-title text-start" style="color: var(--color-secondary-btn);">WHY CHOOSE US</p>
+                    <h1 class="fw-bold text-start"> Providing your business with a quality IT service is our passion. </h1>
+                    <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Remote It Assistance</p>
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Solving IT Problems</p>
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Practice IT Management</p>
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">IT Security Services</p>
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Managed IT Service</p>
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Cloud Services</p>
+                    </div>
                 </div>
-            </div>
-         </div>
-    </section>
+             </div>
+        </section>
 
-    @*Why Trust Us*@
-    <section class="mt-2">
-         <div class="why-choose-us container d-flex flex-wrap flex-xxl-nowrap gap-0 gap-sm-5 gap-xxl-5">
-             <div class="slogan-company flex-grow-1 text-sm-start align-self-center p-3 p-sm-0 ">
-                <p class="section-title text-start" style="color: var(--color-secondary-btn);">WHY TRUST US?</p>
-                <h1 class="section-subtitle fw-bold text-start"> Achieve digital transformation for your retail business services </h1>
-                <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
-                <div class="d-flex justify-content-between flex-wrap">
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Protect your Business</p>
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Network Security</p>
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Data Security</p>
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Small Business Owners</p>
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Running your Business</p>
-                    <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Network Monitoring</p>
+        @*Why Trust Us*@
+        <section class="mt-2">
+             <div class="why-choose-us container d-flex flex-wrap flex-xxl-nowrap gap-0 gap-sm-5 gap-xxl-5">
+                 <div class="slogan-company flex-grow-1 text-sm-start align-self-center p-3 p-sm-0 ">
+                    <p class="section-title text-start" style="color: var(--color-secondary-btn);">WHY TRUST US?</p>
+                    <h1 class="section-subtitle fw-bold text-start"> Achieve digital transformation for your retail business services </h1>
+                    <p class="child-title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Protect your Business</p>
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Network Security</p>
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Data Security</p>
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Small Business Owners</p>
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 me-sm-2 me-xxl-2">Running your Business</p>
+                        <p class="why-choose-us__item p-3 shadow-sm flex-grow-1 ms-sm-2 ms-xxl-2">Network Monitoring</p>
+                    </div>
                 </div>
+
+                <img src="/img/choose-2.jpg" class="flex-grow-1 flex-sm-grow-1 flex-xxl-grow-1 p-0 p-xxl-0" />
+             </div>
+        </section>
+    </div>
+
+    @*Total*@
+    <div class="index-total">
+        <div class="container d-flex justify-content-between flex-wrap">
+            <div class="index-total-item text-white p-2 my-xxl-5 my-sm-2">
+                <h1><span class="counter0">27</span>+</h1>
+                <h3>Years Helping Business</h3>
             </div>
+            <div class="index-total-item text-white p-2 my-xxl-5 my-sm-2">
+                <h1><span class="counter1">500</span>+</h1>
+                <h3>Employers</h3>
+            </div>
+            <div class="index-total-item text-white p-2 my-xxl-5 my-sm-2">
+                <h1><span class="counter2">30</span>M</h1>
+                <h3>Complete Projects</h3>
+            </div>
+            <div class="index-total-item text-white p-2 my-xxl-5 my-sm-2">
+                <h1><span class="counter3">90</span>K+</h1>
+                <h3>5 Star Rating</h3>
+            </div>
+        </div>
+        
 
-            <img src="/img/choose-2.jpg" class="flex-grow-1 flex-sm-grow-1 flex-xxl-grow-1 p-0 p-xxl-0" />
-         </div>
-    </section>
-</div>
 
-@*Total*@
-<div class="index-total d-flex justify-content-center flex-wrap">
-    <div class="index-total-item text-white p-5 my-xxl-5 my-sm-2">
-        <h1>27+</h1>
-        <h3>Years Helping Business</h3>
-    </div>
-    <div class="index-total-item text-white p-5 my-xxl-5 my-sm-2">
-        <h1>500+</h1>
-        <h3>Employers</h3>
-    </div>
-    <div class="index-total-item text-white p-5 my-xxl-5 my-sm-2">
-        <h1>30M</h1>
-        <h3>Complete Projects</h3>
-    </div>
-    <div class="index-total-item text-white p-5 my-xxl-5 my-sm-2">
-        <h1>90 K+</h1>
-        <h3>5 Star Rating</h3>
     </div>
 
-
-</div>
-
-@*Testimonial*@
-<div class="provied testimonital container-fluid w-100 pb-xxl-5">
-    <section class="container">
-         <p class="section-title">TESTIMONIAL</p>
-         <h1 class="section-subtitle fw-bold"> What Our Client Say </h1>
-      <div class="container-fluid owl-2-style">
-        <div class="owl-carousel owl-2">
-          <div class="media-29101">
-              <div class="rating-star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-              </div>
-              <p class="mt-3 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit,ipsum is simply dummy text of the printing.</p>
-              
-              <div class="client-container">
-                  <div class="client-avatar d-flex">
-                
-                        <img class="client-avatar__img"  src="img/member-2.png" />
-                    
-                        <div class="client-avatar__half client-avatar__half--first"></div>
-
-                    
-                        <div class="client-avatar__half client-avatar__half--second"></div>
-                  
+    @*Testimonial*@
+    <div class="provied testimonital container-fluid w-100 pb-xxl-5">
+        <section class="container">
+             <p class="section-title">TESTIMONIAL</p>
+             <h1 class="section-subtitle fw-bold"> What Our Client Say </h1>
+          <div class="container-fluid owl-2-style">
+            <div class="owl-carousel owl-2">
+              <div class="media-29101">
+                  <div class="rating-star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
                   </div>
-                  <h3>Frank Alonso</h3>
-                  <p class="mt-3">Business Man</p>
-              </div>
+                  <p class="mt-3 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit,ipsum is simply dummy text of the printing.</p>
               
-          </div>
-
-           <div class="media-29101">
-              <div class="rating-star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-              </div>
-              <p class="mt-3 fst-italic">Lorem ipsum dolor labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
-              
-              <div class="client-container">
-                  <div class="client-avatar d-flex">
+                  <div class="client-container">
+                      <div class="client-avatar d-flex">
                 
-                        <img class="client-avatar__img"  src="img/member-3.png" />
+                            <img class="client-avatar__img"  src="img/member-2.png" />
                     
-                        <div class="client-avatar__half client-avatar__half--first"></div>
+                            <div class="client-avatar__half client-avatar__half--first"></div>
 
                     
-                        <div class="client-avatar__half client-avatar__half--second"></div>
+                            <div class="client-avatar__half client-avatar__half--second"></div>
                   
+                      </div>
+                      <h3>Frank Alonso</h3>
+                      <p class="mt-3">Business Man</p>
                   </div>
-                  <h3>Frank Alonso</h3>
-                  <p class="mt-3">Business Man</p>
-              </div>
               
-          </div>
+              </div>
 
-           <div class="media-29101">
-              <div class="rating-star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-              </div>
-              <p class="mt-3 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+               <div class="media-29101">
+                  <div class="rating-star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </div>
+                  <p class="mt-3 fst-italic">Lorem ipsum dolor labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
               
-              <div class="client-container">
-                  <div class="client-avatar d-flex">
+                  <div class="client-container">
+                      <div class="client-avatar d-flex">
                 
-                        <img class="client-avatar__img"  src="img/member-4.png" />
+                            <img class="client-avatar__img"  src="img/member-3.png" />
                     
-                        <div class="client-avatar__half client-avatar__half--first"></div>
+                            <div class="client-avatar__half client-avatar__half--first"></div>
 
                     
-                        <div class="client-avatar__half client-avatar__half--second"></div>
+                            <div class="client-avatar__half client-avatar__half--second"></div>
                   
+                      </div>
+                      <h3>Frank Alonso</h3>
+                      <p class="mt-3">Business Man</p>
                   </div>
-                  <h3>Frank Alonso</h3>
-                  <p class="mt-3">Business Man</p>
-              </div>
               
-          </div>
+              </div>
 
-           <div class="media-29101">
-              <div class="rating-star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-              </div>
-              <p class="mt-3 fst-italic">Lorem elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+               <div class="media-29101">
+                  <div class="rating-star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </div>
+                  <p class="mt-3 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
               
-              <div class="client-container">
-                  <div class="client-avatar d-flex">
+                  <div class="client-container">
+                      <div class="client-avatar d-flex">
                 
-                        <img class="client-avatar__img"  src="img/member-5.png" />
+                            <img class="client-avatar__img"  src="img/member-4.png" />
                     
-                        <div class="client-avatar__half client-avatar__half--first"></div>
+                            <div class="client-avatar__half client-avatar__half--first"></div>
 
                     
-                        <div class="client-avatar__half client-avatar__half--second"></div>
+                            <div class="client-avatar__half client-avatar__half--second"></div>
                   
+                      </div>
+                      <h3>Frank Alonso</h3>
+                      <p class="mt-3">Business Man</p>
                   </div>
-                  <h3>Frank Alonso</h3>
-                  <p class="mt-3">Business Man</p>
-              </div>
               
-          </div>
+              </div>
 
-           <div class="media-29101">
-              <div class="rating-star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-              </div>
-              <p class="mt-3 fst-italic">Lorem ipsum dolor consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+               <div class="media-29101">
+                  <div class="rating-star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </div>
+                  <p class="mt-3 fst-italic">Lorem elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
               
-              <div class="client-container">
-                  <div class="client-avatar d-flex">
+                  <div class="client-container">
+                      <div class="client-avatar d-flex">
                 
-                        <img class="client-avatar__img"  src="img/member-6.png" />
+                            <img class="client-avatar__img"  src="img/member-5.png" />
                     
-                        <div class="client-avatar__half client-avatar__half--first"></div>
+                            <div class="client-avatar__half client-avatar__half--first"></div>
 
                     
-                        <div class="client-avatar__half client-avatar__half--second"></div>
+                            <div class="client-avatar__half client-avatar__half--second"></div>
                   
+                      </div>
+                      <h3>Frank Alonso</h3>
+                      <p class="mt-3">Business Man</p>
                   </div>
-                  <h3>Frank Alonso</h3>
-                  <p class="mt-3">Business Man</p>
-              </div>
               
-          </div>
+              </div>
 
-           <div class="media-29101">
-              <div class="rating-star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-              </div>
-              <p class="mt-3 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+               <div class="media-29101">
+                  <div class="rating-star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </div>
+                  <p class="mt-3 fst-italic">Lorem ipsum dolor consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
               
-              <div class="client-container">
-                  <div class="client-avatar d-flex">
+                  <div class="client-container">
+                      <div class="client-avatar d-flex">
                 
-                        <img class="client-avatar__img"  src="img/member-7.png" />
+                            <img class="client-avatar__img"  src="img/member-6.png" />
                     
-                        <div class="client-avatar__half client-avatar__half--first"></div>
+                            <div class="client-avatar__half client-avatar__half--first"></div>
 
                     
-                        <div class="client-avatar__half client-avatar__half--second"></div>
+                            <div class="client-avatar__half client-avatar__half--second"></div>
                   
+                      </div>
+                      <h3>Frank Alonso</h3>
+                      <p class="mt-3">Business Man</p>
                   </div>
-                  <h3>Frank Alonso</h3>
-                  <p class="mt-3">Business Man</p>
-              </div>
               
-          </div>
+              </div>
 
-           <div class="media-29101">
-              <div class="rating-star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-              </div>
-              <p class="mt-3 fst-italic">Lorem ipsum dolor sit text of the printing.</p>
+               <div class="media-29101">
+                  <div class="rating-star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </div>
+                  <p class="mt-3 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
               
-              <div class="client-container">
-                  <div class="client-avatar d-flex">
+                  <div class="client-container">
+                      <div class="client-avatar d-flex">
                 
-                        <img class="client-avatar__img"  src="img/member-8.png" />
+                            <img class="client-avatar__img"  src="img/member-7.png" />
                     
-                        <div class="client-avatar__half client-avatar__half--first"></div>
+                            <div class="client-avatar__half client-avatar__half--first"></div>
 
                     
-                        <div class="client-avatar__half client-avatar__half--second"></div>
+                            <div class="client-avatar__half client-avatar__half--second"></div>
                   
+                      </div>
+                      <h3>Frank Alonso</h3>
+                      <p class="mt-3">Business Man</p>
                   </div>
-                  <h3>Frank Alonso</h3>
-                  <p class="mt-3">Business Man</p>
-              </div>
               
-          </div>
+              </div>
+
+               <div class="media-29101">
+                  <div class="rating-star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </div>
+                  <p class="mt-3 fst-italic">Lorem ipsum dolor sit text of the printing.</p>
+              
+                  <div class="client-container">
+                      <div class="client-avatar d-flex">
+                
+                            <img class="client-avatar__img"  src="img/member-8.png" />
+                    
+                            <div class="client-avatar__half client-avatar__half--first"></div>
+
+                    
+                            <div class="client-avatar__half client-avatar__half--second"></div>
+                  
+                      </div>
+                      <h3>Frank Alonso</h3>
+                      <p class="mt-3">Business Man</p>
+                  </div>
+              
+              </div>
           
+            </div>
+
+          </div>
+
+        </section>
+
+    @*Team member*@
+       <div class="provied team-member container-fluid w-100 pb-xxl-5">
+            <section class="container">
+                 <p class="section-title">TEAM MEMBER</p>
+                 <h1 class="section-subtitle fw-bold"> Expert Team </h1>
+                 <div class="d-flex justify-content-around flex-wrap gap-5">
+                     <div class="team-member__item">
+                         <div class="team-member__item-info justify-content-center text-center">
+                              <img class="team-member__item-avatar" src="img/photo1.png" />
+                              <div class="team-member__item-social d-flex justify-content-center align-content-center gap-3">
+                                  <img src="img/ic_tm_fb.png"/>
+                                  <img src="img/ic_tm_ts.png"/>
+                                  <img src="img/ic_tm_li.png"/>
+                              </div>
+                         </div>
+                         <h4>John Hard</h4>
+                         <p>Co-Founder, CEO</p>
+                     </div>
+
+                     <div class="team-member__item">
+                         <div class="team-member__item-info">
+                              <img class="team-member__item-avatar" src="img/photo2.png" />
+                              <div class="team-member__item-social d-flex justify-content-center align-content-center gap-3">
+                                  <img src="img/ic_tm_fb.png"/>
+                                  <img src="img/ic_tm_ts.png"/>
+                                  <img src="img/ic_tm_li.png"/>
+                              </div>
+                         </div>
+                         <h4>John Hard</h4>
+                         <p>Co-Founder, CEO</p>
+                     </div>
+
+                     <div class="team-member__item">
+                         <div class="team-member__item-info">
+                              <img class="team-member__item-avatar" src="img/photo3.png" />
+                              <div class="team-member__item-social d-flex justify-content-center align-content-center gap-3">
+                                  <img src="img/ic_tm_fb.png"/>
+                                  <img src="img/ic_tm_ts.png"/>
+                                  <img src="img/ic_tm_li.png"/>
+                              </div>
+                         </div>
+                         <h4>John Hard</h4>
+                         <p>Co-Founder, CEO</p>
+                     </div>
+
+                     <div class="team-member__item">
+                         <div class="team-member__item-info">
+                              <img class="team-member__item-avatar" src="img/photo4.png" />
+                              <div class="team-member__item-social d-flex justify-content-center align-content-center">
+                                  <img src="img/ic_tm_fb.png"/>
+                                  <img src="img/ic_tm_ts.png"/>
+                                  <img src="img/ic_tm_li.png"/>
+                              </div>
+                         </div>
+                         <h4>John Hard</h4>
+                         <p>Co-Founder, CEO</p>
+                     </div>
+              
+                 </div>
+            </section>
+       </div>
+
+    @* Blog and Article*@
+        <div class="provied blog-and-article container-fluid w-100 pb-xxl-5">
+            <section class="container">
+                 <p class="section-title">BLOG AND ARTICLE</p>
+                 <h1 class="section-subtitle fw-bold"> Recent Blog </h1>
+                 <div class="blog-cardsection-title d-flex justify-content-between flex-wrap gap-0 gap-lg-5">
+                     <div class="card border-0 flex-grow-1">
+                          <img src="img/feed-image-1.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h6 class="card-subtitle mt-1 mb-4"><i class="bi bi-person-fill"></i> Author   <i class="bi bi-calendar2-minus-fill ms-3"></i> 17 June 2022</h6>
+                              <h5 class="card-title">Planning for a Safe Return to the Workplace IT Solutions</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</p>
+                              <a href="#" class="card-link mt-4">READ MORE</a>
+                          </div>
+                     </div>
+
+                     <div class="card border-0 flex-grow-1">
+                          <img src="img/feed-image-3.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h6 class="card-subtitle mt-1 mb-4"><i class="bi bi-person-fill"></i> Author   <i class="bi bi-calendar2-minus-fill ms-3"></i> 20 June 2022</h6>
+                              <h5 class="card-title">Announcing Our New Smiles for Success Charity</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</p>
+                              <a href="#" class="card-link mt-4">READ MORE</a>
+                          </div>
+                     </div>
+
+                     <div class="card border-0 flex-grow-1">
+                          <img src="img/feed-image-2.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h6 class="card-subtitle mt-1 mb-4"><i class="bi bi-person-fill"></i> Author   <i class="bi bi-calendar2-minus-fill ms-3"></i> 25 June 2022</h6>
+                              <h5 class="card-title">Machine Learning Applications for Every Industry</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</p>
+                              <a href="#" class="card-link mt-4">READ MORE</a>
+                          </div>
+                     </div>
+
+                 </div>
+            </section>
         </div>
 
-      </div>
 
-    </section>
-
-@*Team member*@
-   <div class="provied team-member container-fluid w-100 pb-xxl-5">
-        <section class="container">
-             <p class="section-title">TEAM MEMBER</p>
-             <h1 class="section-subtitle fw-bold"> Expert Team </h1>
-             <div class="d-flex justify-content-around flex-wrap gap-5">
-                 <div class="team-member__item">
-                     <div class="team-member__item-info">
-                          <img class="team-member__item-avatar" src="img/photo1.png" />
-                          <div class="team-member__item-social d-flex justify-content-center align-content-center gap-3">
-                              <img src="img/ic_tm_fb.png"/>
-                              <img src="img/ic_tm_ts.png"/>
-                              <img src="img/ic_tm_li.png"/>
-                          </div>
-                     </div>
-                     <h4>John Hard</h4>
-                     <p>Co-Founder, CEO</p>
-                 </div>
-
-                 <div class="team-member__item">
-                     <div class="team-member__item-info">
-                          <img class="team-member__item-avatar" src="img/photo2.png" />
-                          <div class="team-member__item-social d-flex justify-content-center align-content-center gap-3">
-                              <img src="img/ic_tm_fb.png"/>
-                              <img src="img/ic_tm_ts.png"/>
-                              <img src="img/ic_tm_li.png"/>
-                          </div>
-                     </div>
-                     <h4>John Hard</h4>
-                     <p>Co-Founder, CEO</p>
-                 </div>
-
-                 <div class="team-member__item">
-                     <div class="team-member__item-info">
-                          <img class="team-member__item-avatar" src="img/photo3.png" />
-                          <div class="team-member__item-social d-flex justify-content-center align-content-center gap-3">
-                              <img src="img/ic_tm_fb.png"/>
-                              <img src="img/ic_tm_ts.png"/>
-                              <img src="img/ic_tm_li.png"/>
-                          </div>
-                     </div>
-                     <h4>John Hard</h4>
-                     <p>Co-Founder, CEO</p>
-                 </div>
-
-                 <div class="team-member__item">
-                     <div class="team-member__item-info">
-                          <img class="team-member__item-avatar" src="img/photo4.png" />
-                          <div class="team-member__item-social d-flex justify-content-center align-content-center">
-                              <img src="img/ic_tm_fb.png"/>
-                              <img src="img/ic_tm_ts.png"/>
-                              <img src="img/ic_tm_li.png"/>
-                          </div>
-                     </div>
-                     <h4>John Hard</h4>
-                     <p>Co-Founder, CEO</p>
-                 </div>
-              
-             </div>
-        </section>
-   </div>
-
-@* Blog and Article*@
-    <div class="provied blog-and-article container-fluid w-100 pb-xxl-5">
-        <section class="container">
-             <p class="section-title">BLOG AND ARTICLE</p>
-             <h1 class="section-subtitle fw-bold"> Recent Blog </h1>
-             <div class="blog-cardsection-title d-flex justify-content-between flex-wrap gap-0 gap-lg-5">
-                 <div class="card border-0 flex-grow-1">
-                      <img src="img/feed-image-1.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                          <h6 class="card-subtitle mt-1 mb-4"><i class="bi bi-person-fill"></i> Author   <i class="bi bi-calendar2-minus-fill ms-3"></i> 17 June 2022</h6>
-                          <h5 class="card-title">Planning for a Safe Return to the Workplace IT Solutions</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</p>
-                          <a href="#" class="card-link mt-4">READ MORE</a>
-                      </div>
-                 </div>
-
-                 <div class="card border-0 flex-grow-1">
-                      <img src="img/feed-image-3.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                          <h6 class="card-subtitle mt-1 mb-4"><i class="bi bi-person-fill"></i> Author   <i class="bi bi-calendar2-minus-fill ms-3"></i> 20 June 2022</h6>
-                          <h5 class="card-title">Announcing Our New Smiles for Success Charity</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</p>
-                          <a href="#" class="card-link mt-4">READ MORE</a>
-                      </div>
-                 </div>
-
-                 <div class="card border-0 flex-grow-1">
-                      <img src="img/feed-image-2.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                          <h6 class="card-subtitle mt-1 mb-4"><i class="bi bi-person-fill"></i> Author   <i class="bi bi-calendar2-minus-fill ms-3"></i> 25 June 2022</h6>
-                          <h5 class="card-title">Machine Learning Applications for Every Industry</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</p>
-                          <a href="#" class="card-link mt-4">READ MORE</a>
-                      </div>
-                 </div>
-
-             </div>
-        </section>
     </div>
 
+    @*Want to work with us*@ 
+    <div class="want-to-work-with-us container-fluid w-100 p-0">
+            <section class="container-fluid m-0 p-5">
+                 <p class="section-title">WANT TO WORK WITH US?</p>
+                 <h1 class="section-subtitle fw-bold text-white"> Digitally transform and grow your business! </h1>
+                 <p class="section-text text-white text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                 <div class="want-to-work-with-us__btn d-flex justify-content-center gap-3 mt-4">
+                     <p class="call-now-btn">Call now</p>
+                     <p class="contact-us-btn-2">Contact us</p>
+                 </div>
+            </section>
+     </div>
 
-</div>
+     @*Trusted By Over 40.000*@
+     <div class="trusted-by-over provied container-fluid w-100 p-0 pt-5 pb-3">
+            <section class="container p-5 text-center w-100 justify-self-center">
+                 <p class="section-title text-center">TRUSTED BY OVER 40,000</p>
+                 <h1 class="section-subtitle fw-bold "> Our Customers </h1>
+                 <div class="list-trusted d-flex justify-content-center flex-wrap gap-5 p-5">
+                     <img src="/img/client-1.png" />
+                     <img src="/img/client-2.png" />
+                     <img src="/img/client-3.png" />
+                     <img src="/img/client-4.png" />
+                     <img src="/img/client-5.png" />
+                     <img src="/img/client-6.png" />
+                     <img src="/img/client-7.png" />
+                     <img src="/img/client-8.png" />
+                     <img src="/img/client-1.png" />
+                 </div>
+            </section>
+     </div>
 
-@*Want to work with us*@ 
-<div class="want-to-work-with-us container-fluid w-100 p-0">
-        <section class="container-fluid m-0 p-5">
-             <p class="section-title">WANT TO WORK WITH US?</p>
-             <h1 class="section-subtitle fw-bold text-white"> Digitally transform and grow your business! </h1>
-             <p class="section-text text-white text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-             <div class="want-to-work-with-us__btn d-flex justify-content-center gap-3 mt-4">
-                 <p class="call-now-btn">Call now</p>
-                 <p class="contact-us-btn-2">Contact us</p>
-             </div>
-        </section>
- </div>
+     <HomePortal.Components.Footer/>

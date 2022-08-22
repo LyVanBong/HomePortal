@@ -813,3 +813,5 @@ C:\Users\linhl\source\repos\HomePortal\HomePortal\obj\Debug\net6.0\refint\HomePo
 C:\Users\linhl\source\repos\HomePortal\HomePortal\obj\Debug\net6.0\HomePortal.pdb
 C:\Users\linhl\source\repos\HomePortal\HomePortal\obj\Debug\net6.0\ref\HomePortal.dll
 C:\Users\linhl\source\repos\HomePortal\HomePortal\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\linhl\source\repos\HomePortal\HomePortal\obj\Debug\net6.0\scopedcss\Components\Navbar.razor.rz.scp.css
+C:\Users\linhl\source\repos\HomePortal\HomePortal\obj\Debug\net6.0\scopedcss\Components\Footer.razor.rz.scp.css
