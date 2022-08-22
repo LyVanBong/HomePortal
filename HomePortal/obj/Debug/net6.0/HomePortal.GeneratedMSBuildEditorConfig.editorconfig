@@ -11,33 +11,33 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = HomePortal
 build_property.RootNamespace = HomePortal
-build_property.ProjectDir = C:\Users\linhl\source\repos\HomePortal\HomePortal\
+build_property.ProjectDir = C:\Users\HopeH\source\repos\BByteSolutionsCom\HomePortal\HomePortal\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\linhl\source\repos\HomePortal\HomePortal
+build_property.MSBuildProjectDirectory = C:\Users\HopeH\source\repos\BByteSolutionsCom\HomePortal\HomePortal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/linhl/source/repos/HomePortal/HomePortal/App.razor]
+[C:/Users/HopeH/source/repos/BByteSolutionsCom/HomePortal/HomePortal/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/linhl/source/repos/HomePortal/HomePortal/_Imports.razor]
+[C:/Users/HopeH/source/repos/BByteSolutionsCom/HomePortal/HomePortal/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/linhl/source/repos/HomePortal/HomePortal/Components/Footer.razor]
+[C:/Users/HopeH/source/repos/BByteSolutionsCom/HomePortal/HomePortal/Components/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-zdrmr58y35
 
-[C:/Users/linhl/source/repos/HomePortal/HomePortal/Components/Navbar.razor]
+[C:/Users/HopeH/source/repos/BByteSolutionsCom/HomePortal/HomePortal/Components/Navbar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZiYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-uovi7er347
 
-[C:/Users/linhl/source/repos/HomePortal/HomePortal/Pages/Index.razor]
+[C:/Users/HopeH/source/repos/BByteSolutionsCom/HomePortal/HomePortal/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jxqy1gb23m
 
-[C:/Users/linhl/source/repos/HomePortal/HomePortal/Shared/MainLayout.razor]
+[C:/Users/HopeH/source/repos/BByteSolutionsCom/HomePortal/HomePortal/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-w3zenntohh
