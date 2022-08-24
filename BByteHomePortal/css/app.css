@@ -225,6 +225,13 @@ section {
     z-index: 1900;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
 .nav-item {
     font-size: 1.2rem;
     font-weight: 800;
@@ -293,7 +300,37 @@ section {
 .nav-on-scroll .navbar-brand {
     color: #000;
 }
+/* Navbar CSS end */
+/* Banner CSS start */
+.banner-page {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
 
+    .banner-page h1 {
+        font-size: 2.5rem;
+        font-family: bannerTitleFont;
+        text-align: center;
+    }
+
+    .banner-page h3 {
+        font-size: 1.5rem;
+        vertical-align: middle;
+        margin: 0 10px;
+    }
+
+    .pulse {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: var(--color-primary);
+        animation-name: pulse;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        margin-bottom: 3px;
+    }
+/* Banner CSS end */
 /* Footer CSS start */
 footer {
     background-color: var(--color-footer-bg);
@@ -442,6 +479,23 @@ footer hr {
     }
 /* Footer CSS end */
 
+/* BackToTop CSS*/
+.back-to-top-btn { 
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    visibility: hidden;
+    z-index: 1999;
+}
 
 /**
  * Basic CSS Media Query Template
@@ -474,6 +528,7 @@ footer hr {
     .collapse {
         border-radius: 5px;
         background-color:#fff;
+        margin-top: 10px;
     }
 
     .aoc-experience img {
@@ -482,7 +537,7 @@ footer hr {
 
     .nav-link {
         justify-content: space-between;
-        padding-left: 20px;
+        padding-left: 25px !important;
         border-bottom: 1px solid #62626235;
         color: #000;
     }
@@ -524,12 +579,21 @@ footer hr {
 
     .navbar button {
         margin-left: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
 
     .nav-item:last-child a {
         border-bottom: 0;
+    }
+
+    .btn-nav-support {
+        margin-top: 15px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .navbar-toggler {
+        margin-right: -10px !important;
     }
 
     .dropdown-menu {
@@ -625,6 +689,7 @@ footer hr {
     .collapse {
         border-radius: 5px;
         background-color: #fff;
+        margin-top: 10px;
     }
 
     .navbar button {
@@ -635,7 +700,7 @@ footer hr {
 
     .nav-link {
         justify-content: space-between;
-        padding-left: 20px;
+        padding-left: 25px !important;
         border-bottom: 1px solid #62626235;
         color: #000;
     }
@@ -660,6 +725,15 @@ footer hr {
 
     .nav-item:last-child a {
         border-bottom: 0;
+    }
+
+    .btn-nav-support {
+        margin-top: 15px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .navbar-toggler {
+        margin-right: -10px !important;
     }
 
     .dropdown-menu {
@@ -701,4 +775,16 @@ footer hr {
 
 /* iPad Landscape */
 @media screen and (min-device-width: 481px) and (orientation:landscape) {
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: #7B68EE88 0 0;
+    }
+    70% {
+        box-shadow: #7B68EE88 0 0 0 4px;
+    }
+    100% {
+        box-shadow: #7B68EE88 0 0;
+    }
 }

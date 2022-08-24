@@ -121,6 +121,23 @@ window.initializeCarousel = () => {
 
 }
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var  mybutton = document.getElementById("myBtn");
+  if (document.body.scrollTop > 720 || document.documentElement.scrollTop > 720) {
+    mybutton.style.visibility = "visible";
+  } else {
+    mybutton.style.visibility = "hidden";
+  }
+}
+
+function scrollToTop() {
+    window.scrollTo({
+        top:0,
+        behavior: "smooth"
+    })
+}
 
 
 function countUp(cl) {
