@@ -1,3 +1,5 @@
+
+
 .product-subtitle {
     margin-top: 50px;
     font-size: 1rem;
@@ -55,8 +57,13 @@
     color: var(--color-primary);
 }
 
+.bill-item {
+    transition: transform 0.5s;
+}
 
-
+.bill-item:hover {
+    transform: translateY(-20px);
+}
 
 .bill-title { 
     font-size: 2rem;
@@ -117,10 +124,10 @@
 }
 
 .input-item {
-  border: 1px solid #626262;
+  border: 2px solid var(--color-primary);
   flex: 1;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .form-submit {

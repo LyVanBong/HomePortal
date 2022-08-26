@@ -305,6 +305,8 @@ section {
 .banner-page {
     height: 600px;
     display: flex;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
     flex-direction: column;
 }
 
@@ -483,7 +485,7 @@ footer hr {
 .back-to-top-btn { 
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 10px;
     width: 40px;
     height: 40px;
     display: flex;
@@ -631,7 +633,10 @@ footer hr {
     .dropdown-menu {
         margin-left: 0;
     }
-
+    /* Banner Mobile */
+    .banner-page {
+        height: 500px;
+    }
     /* Footer Mobile */
     .footer-header__search-bar {
         margin-left: 0;
@@ -769,6 +774,12 @@ footer hr {
     .container {
         padding: 0 0.75rem !important;
         overflow-x: hidden !important;
+    }
+
+    
+    /* Banner Mobile */
+    .banner-page {
+        height: 500px;
     }
 
 }
