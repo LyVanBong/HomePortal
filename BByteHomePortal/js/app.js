@@ -46,11 +46,20 @@
         countUp('.counter3');
 
         
-       
+        $('.image-link').magnificPopup({
+            type: 'image',
+            mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+          
+            zoom: {
+              enabled: true, // By default it's false, so don't forget to enable it
+          
+              duration: 300, // duration of the effect, in milliseconds
+              easing: 'ease-in-out', // CSS transition easing function
+            }
+          });
 
-    })
+    });
 
-    
 
     // Header Sticky
     window.addEventListener("scroll", function () {
@@ -65,6 +74,7 @@
 
     
 }
+
 
 function showDropdownMenu(obj) {
     var dropDownMenu = obj.parentNode.parentNode.lastChild;
@@ -111,7 +121,7 @@ function showDropdownMenu(obj) {
             });
     });
 
-
+    
     
 }
 window.initializeCarousel = () => {
@@ -174,4 +184,21 @@ function countUp(cl) {
 
 
 
+}
+
+function showPopupImage(obj) {
+    var imgSrc = $(obj).attr('src');
+    console.log(imgSrc);
+    var popup = document.getElementById("dialog-popup");
+    var popupImage = document.getElementById("product-img-popup");
+    popup.style.visibility = 'visible';
+    popupImage.style.display = 'block';
+    popupImage.style.backgroundImage = 'url('+imgSrc+')';
+}
+
+function closePopupImage() {
+    var popup = document.getElementById("dialog-popup");
+    var popupImage = document.getElementById("product-img-popup");
+    popupImage.style.display = 'none';
+    popup.style.visibility = 'hidden';
 }

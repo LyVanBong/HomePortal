@@ -45,7 +45,7 @@
 }
 
 .search-input {
-    border: 1px solid #62626230;
+    border: 1px solid #E9E6E6;
     flex: 1;
     height: 40px;
     padding-left: 10px;
@@ -70,7 +70,7 @@
 
 .hr-title {
     height: 1px;
-    background-color: #62626230;
+    background-color: #E9E6E6;
 }
 
 .hr-title div {
@@ -144,7 +144,7 @@
     padding: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    border: 0.2px solid #62626230;
+    border: 0.2px solid #E9E6E6;
 }
 
 /* Animation */
