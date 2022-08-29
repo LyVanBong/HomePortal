@@ -47,27 +47,27 @@
         <!-- Navbar start -->
         <nav class="navbar navbar-expand-lg pt-4 pb-4 overflow-hidden" id="navbar-area">
             <div class="container overflow-hidden">
-                <a href="index.html" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="bi bi-cpu-fill"></i> BBYTES</h1>
+                <a href="index.html" class="navbar-brand p-0" >
+                    <h1 class="m-0" id="nav-brand"><i class="bi bi-cpu-fill"></i> BBYTES</h1>
                 </a>
-                <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="toggle-button" onclick="showHideMenu(this)">
                     <i class="bi bi-list btn-menu" style="font-size: 2rem !important;"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-lg-0 d-flex justify-content-center w-100 gap-3 pe-xxl-5" id="nav-menu">
                     
                     
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                         <span class="nav-link" aria-current="page"><a href="index.html">Trang chủ</a></span>
                     </li>
             
                     
             
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                         <span class="nav-link" aria-current="page"><a href="services.html">Dịch vụ</a></span>
                     </li>
             
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                         <span class="nav-link" aria-current="page"><a href="products.html">Sản phẩm</a></span>                
                     </li>
 
@@ -78,10 +78,14 @@
                     <li class="nav-item">
                         <span class="nav-link" aria-current="page"><a href="about.html">Giới thiệu</a></span>    
                     </li>
+
+                    <li class="nav-item">
+                        <span class="nav-link" aria-current="page"><a href="contact_us.html">Liên hệ</a></span>    
+                    </li>
             
                 </ul>
                 <form class="d-flex" role="search">
-                    <button class="btn btn-outline-success btn-nav-support" type="submit">Nhận tư vấn</button>
+                    <a href="tel:+84978085495" class="call-now-btn btn-nav-support" data-wow-duration="2s">Nhận tư vấn<span></span></a>
                 </form>
                 </div>
             </div>
@@ -97,8 +101,8 @@
                     <h1 class="h1 wow" data-wow-duration="2s">BBYTES - Lựa chọn tối ưu cho việc chuyển đổi số toàn diện</h1>
                     <p class="child-title mt-3 wow" data-wow-duration="2s">Chúng tôi cung cấp giải pháp và hỗ trợ doanh nghiệp của bạn trên mọi nền tảng. Hãy nói cho chúng tôi ý tưởng của bạn và chúng ta sẽ cùng thực hiện nó NGAY LÚC NÀY.</p>
                         <div class="banner-btn d-flex justify-content-center justify-content-sm-center justify-content-xxl-start">
-                            <a class="about-btn d-inline-block default-btn fw-bold" data-wow-duration="2s">Xem chi tiết<span></span></a>
-                            <a class="contact-us-btn d-inline-block default-btn fw-bold" data-wow-duration="2s">Liện hệ ngay<span></span></a>
+                            <a class="about-btn d-inline-block default-btn" href="about.html" data-wow-duration="2s">Xem chi tiết<span></span></a>
+                            <a class="contact-us-btn d-inline-block default-btn" href="contact_us.html" data-wow-duration="2s">Liện hệ ngay<span></span></a>
                         </div>
                     </div>
                     <img src="img/home-font.png" class="wow flex-grow-1 flex-sm-grow-1 flex-xxl-grow-1 p-0 p-xxl-0" data-wow-duration="2s" title="home_font" />
@@ -202,7 +206,7 @@
                                 </div>
                             </div>
         
-                            <a class="learn-more-btn default-btn wow" data-wow-duration="2s">Xem thêm<span></span></a>
+                            <a href="products.html" class="learn-more-btn default-btn wow" data-wow-duration="2s">Xem thêm<span></span></a>
         
                         </div>
                         <div class="aoc-experience wow" data-wow-duration="2s">
@@ -497,8 +501,8 @@
                             Hãy để BBYTES đồng hành cùng bạn!! </h1>
                         <p class="section-text text-white text-center child-title wow" data-wow-duration="2s">Ý tưởng của bạn là gì? Đừng ngại, hãy cùng thực hiện ngay nào!</p>
                         <div class="want-to-work-with-us__btn d-flex justify-content-center mt-4">
-                            <a class="call-now-btn default-btn wow" data-wow-duration="2s">Nhận tư vấn<span></span></a>
-                            <a class="contact-us-btn-2 default-btn wow" data-wow-duration="2s">Liên hệ ngay<span></span></a>
+                            <a href="tel:+84978085495" class="call-now-btn default-btn wow" data-wow-duration="2s">Nhận tư vấn<span></span></a>
+                            <a href="contact_us.html" class="contact-us-btn-2 default-btn wow" data-wow-duration="2s">Liên hệ ngay<span></span></a>
                         </div>
                     </section>
             </div>
@@ -555,12 +559,12 @@
                         <h1 class="section-subtitle-footer">Sản phẩm</h1>
                         <hr class="mb-4"/>
                         <ul>
-                            <li><a href="#">Thiết kế Web App</a></li>
-                            <li><a href="#">Xây dựng website</a></li>
-                            <li><a href="#">Dịch vụ mạng</a></li>
-                            <li><a href="#">Dịch vụ SEO</a></li>
-                            <li><a href="#">Xây dựng ứng dụng di động</a></li>
-                            <li><a href="#">Phục hồi dữ liệu</a></li>
+                            <li><a href="services_detail.html">Thiết kế Web App</a></li>
+                            <li><a href="services_detail.html">Xây dựng website</a></li>
+                            <li><a href="services_detail.html">Dịch vụ mạng</a></li>
+                            <li><a href="services_detail.html">Dịch vụ SEO</a></li>
+                            <li><a href="services_detail.html">Xây dựng ứng dụng di động</a></li>
+                            <li><a href="services_detail.html">Phục hồi dữ liệu</a></li>
                         </ul>
                         
                     </div>
@@ -569,9 +573,9 @@
                         <h1 class="section-subtitle-footer">Đường dẫn</h1>
                         <hr class="mb-4"/>
                         <ul>
-                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="about.html">Giới thiệu</a></li>
                             <li><a href="#">Đối tác</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="contact_us.html">Liên hệ</a></li>
                             <li><a href="#">Chính sách bảo mật</a></li>
                             <li><a href="#">Tuyển dụng</a></li>
                         </ul>
@@ -585,7 +589,7 @@
                             <img src="img/ic_f_phone.png" title="ic_f_phone" alt=""/> 
                             <div>
                                 <h2>Số điện thoại</h2>
-                                <h4><a href="#">0978 085 495</a></h4>
+                                <h4><a href="tel:+84978085495">0978 085 495</a></h4>
                             </div>
                         </div>
         
@@ -593,7 +597,7 @@
                             <img src="img/ic_f_mail.png" title="ic_f_mail"/> 
                             <div>
                                 <h2>Email</h2>
-                                <h4><a href="#">Support@bbytesolutions.com</a></h4>
+                                <h4><a href="mailto:Support@bbytesolutions.com">Support@bbytesolutions.com</a></h4>
                             </div>
                         </div>
         

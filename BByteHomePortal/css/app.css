@@ -200,6 +200,7 @@ section {
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
+
 .dropdown i {
     font-size: 0.6rem;
 }
@@ -249,11 +250,17 @@ section {
     align-items: center;
 }
 
-
 .nav-link a {
     color: white;
     text-decoration: none;
 }
+
+
+.nav-link.active a {
+    color: var(--color-primary);
+}
+
+
 
 .navbar-brand:hover {
     color: white;
@@ -271,6 +278,7 @@ section {
     font-size: 0.8rem;
     padding: 0.6rem 0;
     width: 120px;
+    font-weight: 700;
 }
 
 .navbar-brand {
@@ -309,7 +317,7 @@ section {
 /* Navbar CSS end */
 /* Banner CSS start */
 .banner-page {
-    height: 600px;
+    height: 500px;
     display: flex;
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -317,13 +325,13 @@ section {
 }
 
     .banner-page h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-family: bannerTitleFont;
         text-align: center;
     }
 
     .banner-page h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         vertical-align: middle;
         margin: 0 10px;
     }
@@ -471,6 +479,10 @@ footer hr {
         color: var(--color-primary);
     }
 
+.btn-sub {
+    font-weight: 700;
+}
+
 .footer-footer {
     padding: 30px 0;
 }
@@ -536,7 +548,7 @@ footer hr {
     .collapse {
         border-radius: 5px;
         background-color:#fff;
-        margin-top: 10px;
+        
     }
 
     .aoc-experience img {
@@ -597,6 +609,8 @@ footer hr {
 
     .btn-nav-support {
         margin-top: 15px !important;
+        margin-left: 20px;
+        box-shadow: none !important;
         margin-bottom: 10px !important;
     }
 
@@ -628,7 +642,6 @@ footer hr {
     }
 
     #navbar-area {
-        padding: 10px 0;
     }
 
 
@@ -641,7 +654,7 @@ footer hr {
     }
     /* Banner Mobile */
     .banner-page {
-        height: 500px;
+        height: 400px;
     }
     /* Footer Mobile */
     .footer-header__search-bar {
@@ -785,7 +798,7 @@ footer hr {
     
     /* Banner Mobile */
     .banner-page {
-        height: 500px;
+        height: 400px;
     }
 
 }
