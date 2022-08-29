@@ -1,7 +1,7 @@
 name: web-2
 on:
   push:
-    branches: [ homeportal/linhdq/web_pure ]
+    branches: [ main ]
 jobs:
   docker:
     runs-on: ubuntu-latest
