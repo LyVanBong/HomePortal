@@ -1,3 +1,3 @@
 # HomePortal
 Home Portal
-https://www.bbytesolutions.com
+https://bbytesolutions.com
