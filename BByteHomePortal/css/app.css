@@ -136,6 +136,7 @@ section {
     color: red;
 }
 
+
 /* Spinner CSS start */
 .preloader {
 	position: fixed;
@@ -318,6 +319,9 @@ section {
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
+.collapsed {
+    margin-top: 10px;
+}
 
 .dropdown i {
     font-size: 0.6rem;
