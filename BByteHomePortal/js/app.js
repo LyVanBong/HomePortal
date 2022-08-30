@@ -100,6 +100,10 @@ function showHideMenu(obj) {
     }
 
  }
+
+ $(window).on('load', function() {
+    $('.preloader').addClass('preloader-deactivate');
+});
 function showDropdownMenu(obj) {
     var dropDownMenu = obj.parentNode.parentNode.lastChild;
     

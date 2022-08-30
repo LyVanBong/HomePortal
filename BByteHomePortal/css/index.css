@@ -23,6 +23,7 @@
     line-height: 2.5rem;
     word-wrap: break-word;
     padding-right: 10px;
+    text-align: justify;
     visibility: visible; 
     animation-duration: 2s; 
     animation-name: zoomIn;
