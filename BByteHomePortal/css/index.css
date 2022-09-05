@@ -163,8 +163,7 @@
     font-size: 2rem !important;
     word-wrap: break-word;
     font-weight: 900;
-    text-align: justify;
-
+    text-align: center;
     visibility: visible; 
     animation-delay: 0.1s; 
     animation-name: fadeInUp;
